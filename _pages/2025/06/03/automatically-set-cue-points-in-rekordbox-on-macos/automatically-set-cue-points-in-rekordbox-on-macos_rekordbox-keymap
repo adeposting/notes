@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROPERTIES>
+  <VALUE name="keyMappingName" val="None (Preset)"/>
+  <VALUE name="keyMappingXml">
+    <KEYMAPPINGS basedOnDefaults="1">
+      <MAPPING commandId="3007" description="Cue" key="S"/>
+      <MAPPING commandId="3057" description="Return to the beginning of the track"
+               key="T"/>
+      <MAPPING commandId="301a" description="Next Track" key="U"/>
+      <MAPPING commandId="3024" description=" Set Memory Cue" key="V"/>
+      <MAPPING commandId="303b" description="Delete Memory Cue" key="W"/>
+      <MAPPING commandId="3039" description="Call Next Memory Cue" key="X"/>
+      <MAPPING commandId="303a" description="Call Previous Memory Cue" key="Y"/>
+      <MAPPING commandId="3025" description="Memory Cue 1" key="A"/>
+      <MAPPING commandId="3026" description="Memory Cue 2" key="B"/>
+      <MAPPING commandId="3027" description="Memory Cue 3" key="C"/>
+      <MAPPING commandId="3028" description="Memory Cue 4" key="D"/>
+      <MAPPING commandId="3029" description="Memory Cue 5" key="E"/>
+      <MAPPING commandId="302a" description="Memory Cue 6" key="F"/>
+      <MAPPING commandId="302b" description="Memory Cue 7" key="G"/>
+      <MAPPING commandId="302c" description="Memory Cue 8" key="H"/>
+      <MAPPING commandId="302d" description="Memory Cue 9" key="I"/>
+      <MAPPING commandId="302e" description="Memory Cue 10" key="J"/>
+      <MAPPING commandId="302f" description="Delete Memory Cue 1" key="shift + A"/>
+      <MAPPING commandId="3030" description="Delete Memory Cue 2" key="shift + B"/>
+      <MAPPING commandId="3031" description="Delete Memory Cue 3" key="shift + C"/>
+      <MAPPING commandId="3032" description="Delete Memory Cue 4" key="shift + D"/>
+      <MAPPING commandId="3033" description="Delete Memory Cue 5" key="shift + E"/>
+      <MAPPING commandId="3034" description="Delete Memory Cue 6" key="shift + F"/>
+      <MAPPING commandId="3035" description="Delete Memory Cue 7" key="shift + G"/>
+      <MAPPING commandId="3036" description="Delete Memory Cue 8" key="shift + H"/>
+      <MAPPING commandId="3037" description="Delete Memory Cue 9" key="shift + I"/>
+      <MAPPING commandId="3038" description="Delete Memory Cue 10" key="shift + J"/>
+      <MAPPING commandId="301e" description="Set Hot Cue A" key="K"/>
+      <MAPPING commandId="301f" description="Set Hot Cue B" key="L"/>
+      <MAPPING commandId="3020" description="Set Hot Cue C" key="M"/>
+      <MAPPING commandId="3054" description="Set Hot Cue D" key="N"/>
+      <MAPPING commandId="307f" description="Set Hot Cue E" key="O"/>
+      <MAPPING commandId="3080" description="Set Hot Cue F" key="P"/>
+      <MAPPING commandId="3081" description="Set Hot Cue G" key="Q"/>
+      <MAPPING commandId="3082" description="Set Hot Cue H" key="R"/>
+      <MAPPING commandId="3021" description="Clear Hot Cue A" key="shift + K"/>
+      <MAPPING commandId="3022" description="Clear Hot Cue B" key="shift + L"/>
+      <MAPPING commandId="3023" description="Clear Hot Cue C" key="shift + M"/>
+      <MAPPING commandId="3055" description="Clear Hot Cue D" key="shift + N"/>
+      <MAPPING commandId="308b" description="Clear Hot Cue E" key="shift + O"/>
+      <MAPPING commandId="308c" description="Clear Hot Cue F" key="shift + P"/>
+      <MAPPING commandId="308d" description="Clear Hot Cue G" key="shift + Q"/>
+      <MAPPING commandId="308e" description="Clear Hot Cue H" key="shift + R"/>
+      <MAPPING commandId="309a" description="Forward 4 beats" key="shift + S"/>
+      <MAPPING commandId="309b" description="Forward 8 beats" key="shift + T"/>
+      <MAPPING commandId="309c" description="Forward 16 beats" key="shift + U"/>
+      <MAPPING commandId="309d" description="Forward 8 bars" key="shift + V"/>
+      <MAPPING commandId="30a1" description="Backward 4 beats" key="shift + W"/>
+      <MAPPING commandId="30a2" description="Backward 8 beats" key="shift + X"/>
+      <MAPPING commandId="30a3" description="Backward 16 beats" key="shift + Y"/>
+      <MAPPING commandId="30a4" description="Backward 8 bars" key="shift + Z"/>
+      <MAPPING commandId="30c2" description="Set 1.1 Bars" key="Z"/>
+    </KEYMAPPINGS>
+  </VALUE>
+</PROPERTIES>
