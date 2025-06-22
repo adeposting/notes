@@ -20,7 +20,7 @@ tags:
 
 ## Overview
 
-The **Amiga MOD** file format is one of the earliest and most influential formats for creating and playing music on personal computers. Originally developed for the **Commodore Amiga** in the late 1980s, it stores music created using **tracker software**, which combines pattern-based sequencing with embedded audio samples.
+The **Amiga MOD** file format is one of the earliest formats for creating and playing music on personal computers. Originally developed for the **Commodore Amiga** in the late 1980s, it stores music created using **tracker software**, which combines pattern-based sequencing with embedded audio samples.
 
 MOD files encapsulate everything needed to play back a song: samples (instruments), patterns (rows of note events), effects (vibrato, portamento, volume slides, etc.), and playback order. The format became a foundational building block for the **demoscene**, **game audio**, and later **chiptune** and **retro-inspired music**.
 
@@ -36,13 +36,13 @@ MOD files encapsulate everything needed to play back a song: samples (instrument
 
 ## Tracker Programs
 
-### 🖥️ Original Amiga Trackers
+###  Original Amiga Trackers
 
 * **Ultimate Soundtracker** – The original tracker, limited features but groundbreaking.
 * **ProTracker** – The gold standard; introduced the 4-channel "M.K." format.
 * **OctaMED** – Supported 8-channel playback using CPU mixing.
 
-### 💻 Modern Trackers and Tools
+### Modern Trackers and Tools
 
 * **OpenMPT (Open ModPlug Tracker)** – Powerful Windows-based tracker that supports MOD and many other formats.
 * **MilkyTracker** – Cross-platform clone of FastTracker II with full MOD support.
@@ -53,7 +53,7 @@ MOD files encapsulate everything needed to play back a song: samples (instrument
 
 ---
 
-## Why Use MOD Files Today?
+## Advantages of MOD Files 
 
 * **Authenticity** – Perfect for retro Amiga-style games or demos.
 * **Portability** – Self-contained, minimal overhead.
