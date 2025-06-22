@@ -1,0 +1,66 @@
+title: "ade's notes"
+email: "217110652+adeposting@users.noreply.github.com"
+author: "ade"
+description: "ade's notes. see adeposting.com for other stuff."
+baseurl: ""
+url: "http://notes.adeposting.com/"
+apex_domain_url: "https://adeposting.com/"
+subdomain: notes
+
+github:
+  username: adeposting
+  repository: notes
+  branch: main
+  directory: "_pages"
+
+twitter:
+  username: adeposting
+
+featured_image: "/assets/images/featured_image.jpg"
+
+theme: jekyll-theme-ade
+custom:
+  page:
+    type: notes
+
+sass:
+  sass_dir: _sass
+  style: compressed 
+
+markdown: kramdown
+kramdown:
+    syntax_highlighter_opts:
+      disable: true
+
+collections:
+  pages:
+    output: true
+    copy: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+search:
+  collection: pages
+
+exclude:
+  - .DS_Store
+  - .bundle
+  - .git
+  - .jekyll-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .nx
+  - .sass-cache
+  - .vscode
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - package.json
+  - vendor

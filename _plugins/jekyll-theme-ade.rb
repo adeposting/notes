@@ -1,0 +1,2 @@
+require "jekyll-theme-ade"
+  

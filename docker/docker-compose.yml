@@ -1,0 +1,12 @@
+services:
+  jekyll:
+    build:
+      context: ../..
+      dockerfile: ./notes/docker/Dockerfile
+      args:
+        SITE_NAME: notes
+        THEME_NAME: jekyll-theme-ade
+    ports:
+      - "4000:4000"
+    volumes:
+      - ../.docker/_site:/srv/jekyll/notes/_site
