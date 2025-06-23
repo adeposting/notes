@@ -302,7 +302,7 @@ dist/
 
 ## See Also
 
-[RFC Repository Tools](/rfc-repository-tools) - *"This article defines the automation and tooling architecture for managing a software RFC repository"*
+* [RFC Repository Tools](/rfc-repository-tools) - *"This article defines the automation and tooling architecture for managing a software RFC repository"*
 * [Semantic Versioning Specification](https://semver.org/) — for managing RFC version identifiers and changes over time.
 * [Rust RFCs](https://github.com/rust-lang/rfcs) — widely regarded open RFC process with accepted best practices.
 * [React RFCs](https://github.com/reactjs/rfcs) — example of a pragmatic, informal RFC structure used in production tooling.
