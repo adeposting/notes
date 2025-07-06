@@ -20,7 +20,7 @@ categories:
 
 Here is a generic prompt for generating an entire Python software projects using AI agents.
 
-The full prompt at time of writing is included in the appendix of this article, however the prompt will be optimized over time, so see [github.com/adeposting/prompts/blob/main/src/software-project-generation/python.txt](https://github.com/adeposting/prompts/blob/main/src/software-project-generation/python.txt) for the most recent version.
+The full prompt at time of writing is included in the appendix of this article, however the prompt will be optimized over time, so see [github.com/adeposting/prompts/blob/main/src/python-software-project-generation.txt](https://github.com/adeposting/prompts/blob/main/src/python-software-project-generation.txt) for the most recent version.
 
 The prompt is less than 8000 characters, in order to fit the maximum prompt length of [Chat GPT](https://chatgpt.com).
 

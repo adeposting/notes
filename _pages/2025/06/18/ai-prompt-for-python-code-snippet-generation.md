@@ -20,7 +20,7 @@ categories:
 
 Here is a generic prompt for generating Node.js code snippets using AI LLMs.
 
-The full prompt at time of writing is included in the appendix of this article, however the prompt will be optimized over time, so see [github.com/adeposting/prompts/blob/main/src/code-snippet-generation/python.txt](https://github.com/adeposting/prompts/blob/main/src/code-snippet-generation/python.txt) for the most recent version.
+The full prompt at time of writing is included in the appendix of this article, however the prompt will be optimized over time, so see [github.com/adeposting/prompts/blob/main/src/python-code-snippet-generation.txt](https://github.com/adeposting/prompts/blob/main/src/python-code-snippet-generation.txt) for the most recent version.
 
 For another prompt for generating entire Python software projects using AI agents, see [AI Agent Prompt for Python Software Project Generation](https://adeposting.com/ai-agent-prompts-for-python-software-project-generation)
 
