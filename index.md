@@ -20,8 +20,8 @@ no_article_header: true
 </style>
 
 <li class="icon-container">
-    <img class="favicon" src="/favicon.ico" />
-    <a href="https://adeposting.com/">ade's home</a>
+    <img class="favicon" src="/assets/images/favicon.ico" />
+    <a href="https://adeposting.com/">ade's site</a>
 </li>
 <!--li class="icon-container">
     {%- include theme/icons/text.html text="b" class="size-24px" -%}
