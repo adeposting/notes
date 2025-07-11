@@ -57,6 +57,9 @@
       <MAPPING commandId="30a3" description="Backward 16 beats" key="shift + Y"/>
       <MAPPING commandId="30a4" description="Backward 8 bars" key="shift + Z"/>
       <MAPPING commandId="30c2" description="Set 1.1 Bars" key="Z"/>
+      <MAPPING commandId="3063" description="Pad mode - Hot Cue" key="["/>
+      <MAPPING commandId="306b" description="Pad A" key="]"/>
+      <MAPPING commandId="3006" description="Play/Pause" key="shift + ["/>
     </KEYMAPPINGS>
   </VALUE>
 </PROPERTIES>

@@ -22,7 +22,7 @@ tags:
   Your browser does not support the video tag.
 </video>
 
-This article describes a JavaScript-based automation script for Rekordbox that helps DJs automatically set memory cues and hot cues for their tracks. The script is particularly useful for batch processing multiple tracks in a playlist, saving time and ensuring consistent cue point placement.
+This article describes a JavaScript-based automation script for Rekordbox that helps DJs automatically set memory cues, hot cues, and beatgrids for their tracks. The script is particularly useful for batch processing multiple tracks in a playlist, saving time and ensuring consistent cue point placement.
 
 ## Prerequisites
 
@@ -30,12 +30,13 @@ Before using the script, you need to set up the keyboard shortcuts in Rekordbox:
 
 1. Open Rekordbox
 2. Go to rekordbox => Preferences => Keyboard
-3. Download and import the [`rekordbox-keymap.xml`](/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox-keymap.xml) file
+3. Download and import the [`rekordbox.mappings`](/automatically-set-cue-points-in-rekordbox-on-macos_rekordbox.mappings) file
 4. Alternatively, manually configure the following shortcuts under "Performance 1 (Preset)" for "Deck 1":
 
 ### Essential Keyboard Shortcuts
 
 #### Basic Controls
+- Play/Pause: shift + `[`
 - Cue: `S`
 - Return to beginning: `T`
 - Next Track: `U`
@@ -49,6 +50,8 @@ Before using the script, you need to set up the keyboard shortcuts in Rekordbox:
 - Delete Memory Cues 1-10: `Shift + A` through `Shift + J`
 
 #### Hot Cue Controls
+- Pad mode - Hot Cue: `[`
+- Pad A: `]`
 - Set Hot Cues A-H: `K` through `R`
 - Clear Hot Cues A-H: `Shift + K` through `Shift + R`
 
@@ -68,15 +71,23 @@ Before using the script, you need to set up the keyboard shortcuts in Rekordbox:
 The script provides several automated functions for managing cue points:
 
 ### 1. Memory Cue Management
-- **Set Memory Cues**: Automatically places memory cues at regular intervals throughout the track
+- **Set Memory Cues**: Automatically places memory cues at regular intervals throughout the track, any existing memory cues *will* be deleted.
+  - *Set memory cues from first beat of track*: Set memory cues starting at the first beat of the track, note that this is not bar 1.1, but in instead the first beat of the track.
+  - *Set memory cues from hot cue A*: Set memory cues starting at hot cue A, note that hot cue A must be set.
+
 - **Delete Memory Cues**: Removes all memory cues from the selected tracks
+  - *Delete memory cues*: Deletes any existing memory cues.
 
 ### 2. Hot Cue Management
-- **Set Hot Cues**: Places hot cues at strategic points relative to memory cues
+- **Set Hot Cues**: Places hot cues at strategic points relative to memory cues, memory cues must be set first, any existing hot cues *will not* be deleted.
+	- *Set hot cues*: Sets all hot cues.
 - **Clear Hot Cues**: Removes all hot cues from the selected tracks
+  - *Clear hot cues*: Deletes any existing hot cues.
 
 ### 3. Bar Setting
-- **Set 1.1 Bars**: Automatically sets the 1.1 bar marker at the beginning of each track
+- **Set 1.1 Bars**: Automatically sets the 1.1 bar marker, adjusting the beat grid.
+  - *Set 1.1 bars at first beat of track*: Set bar 1.1 at the first beat of the track, note that this is not bar 1.1, but in instead the first beat of the track.
+  - *Set 1.1 bars at hot cue A*: Set bar 1.1 at hot cue A, note that hot cue A must be set.
 
 ## Usage
 
@@ -92,14 +103,18 @@ The script provides several automated functions for managing cue points:
 When you run the script, it will present a series of prompts:
 
 1. **Action Selection**: Choose from:
-   - Set memory cues
-   - Delete memory cues
-   - Set hot cues
-   - Clear hot cues
-   - Set 1.1 bars
+	- Set memory cues from first beat of track
+	- Set memory cues from hot cue A
+	- Delete memory cues
+	- Set hot cues
+	- Clear hot cues
+	- Set 1.1 bars at first beat of track
+	- Set 1.1 bars at hot cue A
 
 2. **Genre Selection**: Currently supports:
    - Drum & Bass (with specific cue point patterns)
+
+More genres coming soon!
 
 3. **Track Count**: Enter the number of tracks to process
 
