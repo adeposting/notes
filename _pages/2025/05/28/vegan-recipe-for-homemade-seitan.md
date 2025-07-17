@@ -11,14 +11,14 @@ tags:
     - nutrition
     - recipe
     - vegan
-featured_image: vegan-recipe-for-homemade-seitan_0.jpeg
+featured_image: 2025-05-28_featured-image.jpeg
 ---
 
 So here's a recipe for homemade seitan I came up with based on a few I found on some cooking sites. Seitan is one of the highest if not *the* highest in protein out of any vegan foods. We're talking like 21 grams per serving here, no joke. It's also dirt cheap to make, so for a vegan on a budget homemade seitan is super economical. Which is saying something, given that seitan is *super* expensive at the grocery store. And this recipe makes a *lot*. I mean a *lot*. Plus, you can store seitan in the refrigerator or even the freezer, and because doing it at home means it's made fresh, it lasts quite a while.
 
 ## Ingredients
 
-![](vegan-recipe-for-homemade-seitan_1.jpeg)
+![](2025-05-28_featured-image.jpeg)
 
 - Vital weat gluten flour
 - Soy sauce

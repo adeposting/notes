@@ -1,8 +1,8 @@
 ---
 permalink: /
 layout: home
-title: ade's notes.
-description: ade's notes. see adeposting.com for other stuff. have fun.
+title: ade's notes
+description: ade's notes. random thigns and stuff. have fun.
 featured_image: /assets/images/featured_image.jpg
 no_article_header: true
 ---
