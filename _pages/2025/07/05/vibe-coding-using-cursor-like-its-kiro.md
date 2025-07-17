@@ -22,7 +22,7 @@ categories:
 
 Use [Cursor](https://cursor.com/en) like it's [Kiro](https://kiro.dev/).
 
-1. Copy-paste [this prompt](2025-07-05_system-prompt.mdc) to `.cursor/rules/system-prompt.mdc` (if that link is broken, the prompt is in the appendix of this page).
+1. Copy-paste [system-prompt.mdc](2025-07-05_system-prompt.txt) to `.cursor/rules/system-prompt.mdc` (if that link is broken, the prompt is in the appendix of this page).
 2. Prompt cursor to generate the spec, e.g. `Do requirements.md -> design.md -> tasks.md, ask me about all the details you need to do this.`
 
 ## what?
@@ -66,18 +66,18 @@ The structure of the `.agent` directory looks like this:
 
 To make Cursor work the same, in terms of using specs (with `requirements.md`, `design.md`, and `tasks.md`), generating reports, and verifying with audits, I use:
 
-> **[2025-07-05_system-prompt.mdc](/2025-07-05_system-prompt.mdc)**
+> **[system-prompt.mdc](/2025-07-05_system-prompt.txt)**
 
 (If that link is broken for some reason, the prompt is also in the [Appendix](#appendix) section at the appendix of this page.)
 
-1. Copy it to `.cursor/rules/2025-07-05_system-prompt.mdc` (or anything you want with a `.mdc` extension).
+1. Copy it to `.cursor/rules/system-prompt.mdc` (or anything you want with a `.mdc` extension).
 2. Copy any existing `requirements.md`, `design.md`, and `tasks.md` in the `.kiro/{project_name}` directory to the `.agent/{project_name}/specs` directory. 
 3. Copy anything in `.kiro/steering` to `.mdc` files in `.cursor/rules`, adding the MDC frontmatter if necessary (see the [Cursor Rules](https://docs.cursor.com/context/rules) docs for what I mean).
 4. Prompt the agent to do the requirements, design, tasks, reports, audits, etc. If some tasks are complete but reports or audits are not done, prompt the agent to do these with respect to the existing codebase.
 
 ## Appendix
 
-### `[2025-07-05_system-prompt.mdc](/2025-07-05_system-prompt.mdc)`
+### `[system-prompt.mdc](/2025-07-05_system-prompt.txt)`
 
 ```
 ---
