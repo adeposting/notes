@@ -5,7 +5,7 @@ tags:
     - china
     - chinese
     - hsk
-    - hsk-1
+    - hsk-5
     - languages
     - learn-chinse
     - mandarin
